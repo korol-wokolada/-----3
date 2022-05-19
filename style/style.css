@@ -9,7 +9,9 @@
     color: white;
 }
 a{
- text-decoration: none;
+    text-decoration: none;
+}
+.nav1{
  color: white;
 }
 li{
@@ -27,13 +29,14 @@ li{
 }
 .nav>li:hover{
     border-bottom: 2px solid greenyellow;
+    width: auto;
 }
 .nav>li:last-child{
     margin-right: 312px;
 }
 h1{
     text-align: center;
-    margin-top: 283px;
+    padding-top: 283px;
     font-size: 72px;
     font-family: 'Oswald', sans-serif;
     font-style: Medium; 
@@ -50,9 +53,13 @@ h1{
     justify-content: center;
     margin-top: 303px;
 }
+.pag{
+    color: white;
+}
 .page{
     margin-right: 9px;
     padding-top: 20px;
+
 }
 .page:hover{
     font-size: 36px;
@@ -62,7 +69,8 @@ h1{
 .firstsection{
     width: 1182px;
     height: 559px;
-    margin: 149px 365px;
+    margin-top: 149px;
+    margin-left: 315px;
     position: relative;
 }
 h2{
@@ -107,32 +115,32 @@ img[name="bitmap1"] {
     left:901px;
 }
 .ourservices{
+    margin-top: 115px;
     background-color: rgb(241, 237, 237);
     display:grid;
     grid-template-columns:auto auto auto;
     grid-template-rows: auto auto;
     justify-content: center;
-    gap: 28px;
+    gap: 54px;
     
 }
 h3{
     font-family: 'Oswald' sans-serif;
     font-size: 48px;
-    text-align: left;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 315px;
-    margin-bottom: 94px;
+    padding-left: 230px;
+    bottom: 94px;
 }
 .block1{
-    margin-left: 315px;
+    margin-left: 230px;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 136px;
     background-color: white;
-    border-radius: 30px;
-    padding: 10px;
+    padding: 44px;
+    
 }
 .block2{
     display: grid;
@@ -140,8 +148,7 @@ h3{
     grid-template-rows: 1fr 1fr;
     margin-bottom: 136px;
     background-color: white;
-    border-radius: 30px;
-    padding: 10px;
+    padding: 44px;
 }
 .block3{
     margin-right: 312px;
@@ -150,8 +157,7 @@ h3{
     grid-template-rows: 1fr 1fr;
     margin-bottom: 136px;
     background-color: white;
-    border-radius: 30px;
-    padding: 10px;
+    padding: 44px;
 }
 .branding{
     font-family: 'Oswald' sans-serif;
@@ -162,6 +168,7 @@ h3{
 }
 .icon{
     margin-top: 20px;
+    margin-left: 30px;
     padding:3px;
     border: 1px solid grey;
     border-radius: 50%;
@@ -169,5 +176,347 @@ h3{
 .block1:hover,.block2:hover,.block3:hover{
     border-bottom: 1px solid greenyellow;
 }
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1185px;
+    margin: 0 auto;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 0px;
+}
+.lw{
+    font-size: 48px;
+    padding-top: 209px;
+}
+.main-nav-a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+.main-nav-a:hover{
+    border-bottom: 2px solid greenyellow;
+    width: auto;
+}
+.textphoto{
+    font-family: 'Oswald' sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    padding-top: 230px;
+
+}
+.photo{
+    margin-top: 146px;
+    width: 727px;
+    height: 482px;
+    background-image: url(/image/Imgs\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h4{font-size: 22px;
+}
+.firstph{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+.namedphoto{
+    text-align: right;
+    padding-right: 300px;
+}
+.cat{
+    margin-top: -120px;
+    width: 583px;
+    height: 596px;
+    background-image: url(/image/Imgs\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.textphoto1{
+    margin-left: 370px;
+    margin-top: 268px;
+    font-family: 'Oswald' sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    text-decoration: line-through greenyellow;
+}
+.t1{
+    margin-left: 160px;
+}
+.namedphoto1{
+    margin-left: 160px;
+}
+.comp{
+   
+    width: 584px;
+    height: 555px;
+    margin-top: 270px;
+    background-image: url(/image/Imgs.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.text-comp{
+    font-family: 'Oswald' sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 262px;
+    margin-left: -30px;
+}
+.tcomp{
+    padding-top: 35px;
+    padding-left: 300px;
+}
+.namedphoto2{
+    text-align: right;
+    padding-right: 160px;
+}
+.apple{
+    width: 656px;
+    height: 656;
+    background-image: url(/image/Imgs\ \(3\).png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.appletext{
+    font-family: 'Oswald' sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    margin-left: 350px;
+    margin-top: 288px;
+}
+.appl{
+    margin-left: 174px;
+    margin-top:90px;
+}
+.namedphoto3{
+    margin-left: 174px;
+}
+.team{
+    margin-top: 173px;
+    width: 1800px;
+    margin: 0 auto;
+    background-color: rgb(241, 237, 237);
+}
+.theteam{
+    padding-top: 129px;
+    margin-left: 315px;
+    font-family: 'Oswald' sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.teamcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 170px;
+}
+.tom{
+    width: 370px;
+    height: 398px;
+    background-image: url(/image/Tom\ Jones.png);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+.michael{
+    width: 370px;
+    height: 398px;
+    background-image: url(/image/michael\ fraup.png);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+.tim{
+    width: 370px;
+    height: 398px;
+    background-image: url(/image/Tim\ Cahill.png);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+.texttom{
+    font-family: 'Oswald' sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 350px;
+    padding-bottom: 27px;
+    display: none;
+    background-color: white;
+    background-position: bottom;
+    opacity: 0.8;
+}
+.Michaeltext{
+    font-family: 'Oswald' sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 340px;
+    padding-bottom: 17px;
+    display: none;
+    background-color: white;
+    opacity: 0.8;
+    
+}
+.timtext{
+    text-align: center;
+    font-family: 'Oswald' sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    display: none;
+    margin-top: 350px;
+    padding-bottom: 27px;
+    background-color: white;
+    opacity: 0.8;
+}
+.tom:hover .texttom{ 
+    display: block;
+}
+.michael:hover .Michaeltext{
+    display: block;
+}
+.tim:hover .timtext{
+    display:block;
+}
+.inform{
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.informtext{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 117px;
+    margin-bottom: 80px;
+}
+.david{
+    font-family: 'Oswald' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.david>span{
+    text-align: center;
+    font-size: 15px;
+}
+.rating-area {
+	overflow: hidden;
+	width: 100px;
+	margin: 0 auto;
+    margin-bottom: 147px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 20px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: black;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: black;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: black;
+	text-shadow: 1px 1px black;;
+}
+.rate-area > label:active {
+	position: relative;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    
+}
+.block-1{
+    background-color: #bbb;
+    text-align: center;
+    margin:0;
+}
+.block-2{
+    background-color: rgb(40, 173, 40);
+    text-align: center;
+    margin:0;
+}
+.block-3{
+    background-color: rgb(39, 38, 38);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin:0;
+}
+.casetext{
+    font-family: 'oswald' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 22px;
+    color: black;
+}
+.caseundertext{
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 100px;
+    color: black;
+}
+.mailtext{
+    font-family: 'oswald' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+    color: black;
+}
+.mailundertext{
+    font-size: 12px;
+    font-weight: 200; 
+    padding-bottom: 100px;
+    margin-top: 22px;
+    color: black;
+}
+.adress{
+    margin-top: 83px;
+    margin-bottom: 83px;
+    color: #bbb;
+}
+.mail{
+    margin-top: 72px;
+    margin-bottom: 19px;
+}
+.case{
+    margin-top: 69px;
+    margin-bottom: 19px;
+}
+.logo{
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+    color: grey;
+    background-color: black;
+    padding:20px
+}
 
 
+
+
+ 
