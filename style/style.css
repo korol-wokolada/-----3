@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 .header{
-    background-image: url(/image/Image.png);
+    background-image: url(../image/Image.png);
     height: 904px;
     color: white;
 }
@@ -212,7 +212,7 @@ h3{
     margin-top: 146px;
     width: 727px;
     height: 482px;
-    background-image: url(/image/Imgs\ \(1\).png);
+    background-image: url(../image/Imgs\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -231,7 +231,7 @@ h4{font-size: 22px;
     margin-top: -120px;
     width: 583px;
     height: 596px;
-    background-image: url(/image/Imgs\ \(2\).png);
+    background-image: url(../image/Imgs\ \(2\).png);
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -254,7 +254,7 @@ h4{font-size: 22px;
     width: 584px;
     height: 555px;
     margin-top: 270px;
-    background-image: url(/image/Imgs.png);
+    background-image: url(../image/Imgs.png);
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -276,7 +276,7 @@ h4{font-size: 22px;
 .apple{
     width: 656px;
     height: 656;
-    background-image: url(/image/Imgs\ \(3\).png);
+    background-image: url(../image/Imgs\ \(3\).png);
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -316,21 +316,21 @@ h4{font-size: 22px;
 .tom{
     width: 370px;
     height: 398px;
-    background-image: url(/image/Tom\ Jones.png);
+    background-image: url(../image/Tom\ Jones.png);
     background-repeat: no-repeat;
     padding-right: 20px;
 }
 .michael{
     width: 370px;
     height: 398px;
-    background-image: url(/image/michael\ fraup.png);
+    background-image: url(../image/michael\ fraup.png);
     background-repeat: no-repeat;
     padding-right: 20px;
 }
 .tim{
     width: 370px;
     height: 398px;
-    background-image: url(/image/Tim\ Cahill.png);
+    background-image: url(../image/Tim\ Cahill.png);
     background-repeat: no-repeat;
     padding-right: 20px;
 }
